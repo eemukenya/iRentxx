@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB72FBB2DCA24C879D97A04 /* Pods_iRent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2172626EDA09E9386EDBF5A9 /* Pods_iRent.framework */; };
+		7B312BE31E9524E600FA0AF3 /* facebookShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B312BE21E9524E600FA0AF3 /* facebookShare.swift */; };
+		7B312BE51E953B7700FA0AF3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BE41E953B7700FA0AF3 /* FBSDKCoreKit.framework */; };
+		7B312BE71E953B8E00FA0AF3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BE61E953B8E00FA0AF3 /* FBSDKLoginKit.framework */; };
+		7B312BE91E953BA200FA0AF3 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BE81E953BA200FA0AF3 /* FBSDKShareKit.framework */; };
+		7B312BEB1E953BB700FA0AF3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BEA1E953BB700FA0AF3 /* Bolts.framework */; };
+		7B312BED1E953BDE00FA0AF3 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BEC1E953BDE00FA0AF3 /* FBNotifications.framework */; };
+		7B312BEF1E953BEA00FA0AF3 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BEE1E953BEA00FA0AF3 /* FBSDKMessengerShareKit.framework */; };
+		7B312BF11E953C2000FA0AF3 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BF01E953C2000FA0AF3 /* FBAudienceNetwork.framework */; };
+		7B312BF31E953C3300FA0AF3 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B312BF21E953C3300FA0AF3 /* AccountKit.framework */; };
+		DB1272EE1E68C04800596A05 /* InsertCaretakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1272ED1E68C04800596A05 /* InsertCaretakerViewController.swift */; };
+		DB1272F01E68F44300596A05 /* CaretakerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1272EF1E68F44300596A05 /* CaretakerLoginViewController.swift */; };
+		DB1CF24D1E6632B2003B5A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1CF24C1E6632B2003B5A45 /* AppDelegate.swift */; };
+		DB1CF24F1E6632B2003B5A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1CF24E1E6632B2003B5A45 /* ViewController.swift */; };
+		DB1CF2541E6632B2003B5A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1CF2531E6632B2003B5A45 /* Assets.xcassets */; };
+		DB1CF2571E6632B2003B5A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1CF2551E6632B2003B5A45 /* LaunchScreen.storyboard */; };
+		DB2B4C0E1E699247007547B2 /* InsertTenantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C0D1E699247007547B2 /* InsertTenantViewController.swift */; };
+		DB2B4C101E69926A007547B2 /* InsertHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C0F1E69926A007547B2 /* InsertHouseViewController.swift */; };
+		DB2B4C121E69928D007547B2 /* InsertPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C111E69928D007547B2 /* InsertPaymentViewController.swift */; };
+		DB2B4C141E6992A4007547B2 /* InsertRepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C131E6992A4007547B2 /* InsertRepairViewController.swift */; };
+		DB2B4C161E6992DB007547B2 /* CaretakerChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C151E6992DB007547B2 /* CaretakerChangePasswordViewController.swift */; };
+		DB2B4C181E6992F1007547B2 /* ViewTenantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C171E6992F1007547B2 /* ViewTenantsViewController.swift */; };
+		DB2B4C1A1E699315007547B2 /* ViewHousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C191E699315007547B2 /* ViewHousesViewController.swift */; };
+		DB2B4C1C1E699337007547B2 /* ViewPaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C1B1E699337007547B2 /* ViewPaymentsViewController.swift */; };
+		DB2B4C1E1E699352007547B2 /* ViewRepairsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C1D1E699352007547B2 /* ViewRepairsViewController.swift */; };
+		DB2B4C201E69938C007547B2 /* TenantViewPaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C1F1E69938C007547B2 /* TenantViewPaymentsViewController.swift */; };
+		DB2B4C221E6993A6007547B2 /* TenantViewRepairsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C211E6993A6007547B2 /* TenantViewRepairsViewController.swift */; };
+		DB2B4C241E6993CF007547B2 /* TenantViewHousingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C231E6993CF007547B2 /* TenantViewHousingViewController.swift */; };
+		DB2B4C261E6993FB007547B2 /* TenantChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C251E6993FB007547B2 /* TenantChangePasswordViewController.swift */; };
+		DB2B4C281E699429007547B2 /* TenantLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4C271E699429007547B2 /* TenantLoginViewController.swift */; };
+		DB4DE2F11E6DB102006E5A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4DE2EF1E6DB102006E5A77 /* Main.storyboard */; };
+		DBB7F3041E6E2666006EAB5B /* TenantCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7F3031E6E2666006EAB5B /* TenantCreateAccountViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2172626EDA09E9386EDBF5A9 /* Pods_iRent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410691BADC646B42D5A6E52B /* Pods-iRent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRent/Pods-iRent.debug.xcconfig"; sourceTree = "<group>"; };
+		7B312BE21E9524E600FA0AF3 /* facebookShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebookShare.swift; sourceTree = "<group>"; };
+		7B312BE41E953B7700FA0AF3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7B312BE61E953B8E00FA0AF3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7B312BE81E953BA200FA0AF3 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7B312BEA1E953BB700FA0AF3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7B312BEC1E953BDE00FA0AF3 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		7B312BEE1E953BEA00FA0AF3 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		7B312BF01E953C2000FA0AF3 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		7B312BF21E953C3300FA0AF3 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		DB1272ED1E68C04800596A05 /* InsertCaretakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertCaretakerViewController.swift; sourceTree = "<group>"; };
+		DB1272EF1E68F44300596A05 /* CaretakerLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaretakerLoginViewController.swift; sourceTree = "<group>"; };
+		DB1CF2491E6632B2003B5A45 /* iRent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1CF24C1E6632B2003B5A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1CF24E1E6632B2003B5A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB1CF2531E6632B2003B5A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1CF2561E6632B2003B5A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1CF2581E6632B2003B5A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2B4C0D1E699247007547B2 /* InsertTenantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertTenantViewController.swift; sourceTree = "<group>"; };
+		DB2B4C0F1E69926A007547B2 /* InsertHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertHouseViewController.swift; sourceTree = "<group>"; };
+		DB2B4C111E69928D007547B2 /* InsertPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertPaymentViewController.swift; sourceTree = "<group>"; };
+		DB2B4C131E6992A4007547B2 /* InsertRepairViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertRepairViewController.swift; sourceTree = "<group>"; };
+		DB2B4C151E6992DB007547B2 /* CaretakerChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaretakerChangePasswordViewController.swift; sourceTree = "<group>"; };
+		DB2B4C171E6992F1007547B2 /* ViewTenantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTenantsViewController.swift; sourceTree = "<group>"; };
+		DB2B4C191E699315007547B2 /* ViewHousesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHousesViewController.swift; sourceTree = "<group>"; };
+		DB2B4C1B1E699337007547B2 /* ViewPaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPaymentsViewController.swift; sourceTree = "<group>"; };
+		DB2B4C1D1E699352007547B2 /* ViewRepairsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRepairsViewController.swift; sourceTree = "<group>"; };
+		DB2B4C1F1E69938C007547B2 /* TenantViewPaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantViewPaymentsViewController.swift; sourceTree = "<group>"; };
+		DB2B4C211E6993A6007547B2 /* TenantViewRepairsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantViewRepairsViewController.swift; sourceTree = "<group>"; };
+		DB2B4C231E6993CF007547B2 /* TenantViewHousingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantViewHousingViewController.swift; sourceTree = "<group>"; };
+		DB2B4C251E6993FB007547B2 /* TenantChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantChangePasswordViewController.swift; sourceTree = "<group>"; };
+		DB2B4C271E699429007547B2 /* TenantLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantLoginViewController.swift; sourceTree = "<group>"; };
+		DB4DE2F01E6DB102006E5A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB7F3031E6E2666006EAB5B /* TenantCreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenantCreateAccountViewController.swift; sourceTree = "<group>"; };
+		F437CF97182A87682EF7FC08 /* Pods-iRent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRent.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRent/Pods-iRent.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1CF2461E6632B2003B5A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B312BEB1E953BB700FA0AF3 /* Bolts.framework in Frameworks */,
+				7B312BED1E953BDE00FA0AF3 /* FBNotifications.framework in Frameworks */,
+				7B312BE91E953BA200FA0AF3 /* FBSDKShareKit.framework in Frameworks */,
+				3EB72FBB2DCA24C879D97A04 /* Pods_iRent.framework in Frameworks */,
+				7B312BE51E953B7700FA0AF3 /* FBSDKCoreKit.framework in Frameworks */,
+				7B312BE71E953B8E00FA0AF3 /* FBSDKLoginKit.framework in Frameworks */,
+				7B312BF31E953C3300FA0AF3 /* AccountKit.framework in Frameworks */,
+				7B312BEF1E953BEA00FA0AF3 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				7B312BF11E953C2000FA0AF3 /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1CF2401E6632B2003B5A45 = {
+			isa = PBXGroup;
+			children = (
+				DB1CF24B1E6632B2003B5A45 /* iRent */,
+				DB1CF24A1E6632B2003B5A45 /* Products */,
+				EF08742D130D573C4797543A /* Pods */,
+				DB236E267C16A42877F5E139 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1CF24A1E6632B2003B5A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CF2491E6632B2003B5A45 /* iRent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1CF24B1E6632B2003B5A45 /* iRent */ = {
+			isa = PBXGroup;
+			children = (
+				DB4DE2EF1E6DB102006E5A77 /* Main.storyboard */,
+				DB1CF24C1E6632B2003B5A45 /* AppDelegate.swift */,
+				DB1CF24E1E6632B2003B5A45 /* ViewController.swift */,
+				DB1CF2531E6632B2003B5A45 /* Assets.xcassets */,
+				DB1CF2551E6632B2003B5A45 /* LaunchScreen.storyboard */,
+				DB1CF2581E6632B2003B5A45 /* Info.plist */,
+				DB1272ED1E68C04800596A05 /* InsertCaretakerViewController.swift */,
+				DB1272EF1E68F44300596A05 /* CaretakerLoginViewController.swift */,
+				DB2B4C0D1E699247007547B2 /* InsertTenantViewController.swift */,
+				DB2B4C0F1E69926A007547B2 /* InsertHouseViewController.swift */,
+				DB2B4C111E69928D007547B2 /* InsertPaymentViewController.swift */,
+				DB2B4C131E6992A4007547B2 /* InsertRepairViewController.swift */,
+				DB2B4C151E6992DB007547B2 /* CaretakerChangePasswordViewController.swift */,
+				DB2B4C171E6992F1007547B2 /* ViewTenantsViewController.swift */,
+				DB2B4C191E699315007547B2 /* ViewHousesViewController.swift */,
+				DB2B4C1B1E699337007547B2 /* ViewPaymentsViewController.swift */,
+				DB2B4C1D1E699352007547B2 /* ViewRepairsViewController.swift */,
+				DB2B4C1F1E69938C007547B2 /* TenantViewPaymentsViewController.swift */,
+				DB2B4C211E6993A6007547B2 /* TenantViewRepairsViewController.swift */,
+				DB2B4C231E6993CF007547B2 /* TenantViewHousingViewController.swift */,
+				DB2B4C251E6993FB007547B2 /* TenantChangePasswordViewController.swift */,
+				DB2B4C271E699429007547B2 /* TenantLoginViewController.swift */,
+				DBB7F3031E6E2666006EAB5B /* TenantCreateAccountViewController.swift */,
+				7B312BE21E9524E600FA0AF3 /* facebookShare.swift */,
+			);
+			path = iRent;
+			sourceTree = "<group>";
+		};
+		DB236E267C16A42877F5E139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B312BF21E953C3300FA0AF3 /* AccountKit.framework */,
+				7B312BF01E953C2000FA0AF3 /* FBAudienceNetwork.framework */,
+				7B312BEE1E953BEA00FA0AF3 /* FBSDKMessengerShareKit.framework */,
+				7B312BEC1E953BDE00FA0AF3 /* FBNotifications.framework */,
+				7B312BEA1E953BB700FA0AF3 /* Bolts.framework */,
+				7B312BE81E953BA200FA0AF3 /* FBSDKShareKit.framework */,
+				7B312BE61E953B8E00FA0AF3 /* FBSDKLoginKit.framework */,
+				7B312BE41E953B7700FA0AF3 /* FBSDKCoreKit.framework */,
+				2172626EDA09E9386EDBF5A9 /* Pods_iRent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF08742D130D573C4797543A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				410691BADC646B42D5A6E52B /* Pods-iRent.debug.xcconfig */,
+				F437CF97182A87682EF7FC08 /* Pods-iRent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1CF2481E6632B2003B5A45 /* iRent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1CF25B1E6632B2003B5A45 /* Build configuration list for PBXNativeTarget "iRent" */;
+			buildPhases = (
+				9A07039F758E5CDEE6E1F740 /* [CP] Check Pods Manifest.lock */,
+				DB1CF2451E6632B2003B5A45 /* Sources */,
+				DB1CF2461E6632B2003B5A45 /* Frameworks */,
+				DB1CF2471E6632B2003B5A45 /* Resources */,
+				09DF34A8487E0CBE0E6C5FB2 /* [CP] Embed Pods Frameworks */,
+				982D1D28B19D8B8069E3515B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRent;
+			productName = iRent;
+			productReference = DB1CF2491E6632B2003B5A45 /* iRent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1CF2411E6632B2003B5A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Edwin Mukenya";
+				TargetAttributes = {
+					DB1CF2481E6632B2003B5A45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DB1CF2441E6632B2003B5A45 /* Build configuration list for PBXProject "iRent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1CF2401E6632B2003B5A45;
+			productRefGroup = DB1CF24A1E6632B2003B5A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1CF2481E6632B2003B5A45 /* iRent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1CF2471E6632B2003B5A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4DE2F11E6DB102006E5A77 /* Main.storyboard in Resources */,
+				DB1CF2571E6632B2003B5A45 /* LaunchScreen.storyboard in Resources */,
+				DB1CF2541E6632B2003B5A45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09DF34A8487E0CBE0E6C5FB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRent/Pods-iRent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		982D1D28B19D8B8069E3515B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRent/Pods-iRent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A07039F758E5CDEE6E1F740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1CF2451E6632B2003B5A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2B4C281E699429007547B2 /* TenantLoginViewController.swift in Sources */,
+				DBB7F3041E6E2666006EAB5B /* TenantCreateAccountViewController.swift in Sources */,
+				DB2B4C121E69928D007547B2 /* InsertPaymentViewController.swift in Sources */,
+				DB2B4C241E6993CF007547B2 /* TenantViewHousingViewController.swift in Sources */,
+				DB2B4C221E6993A6007547B2 /* TenantViewRepairsViewController.swift in Sources */,
+				DB2B4C0E1E699247007547B2 /* InsertTenantViewController.swift in Sources */,
+				DB1CF24F1E6632B2003B5A45 /* ViewController.swift in Sources */,
+				DB2B4C1E1E699352007547B2 /* ViewRepairsViewController.swift in Sources */,
+				DB2B4C201E69938C007547B2 /* TenantViewPaymentsViewController.swift in Sources */,
+				DB1CF24D1E6632B2003B5A45 /* AppDelegate.swift in Sources */,
+				DB2B4C261E6993FB007547B2 /* TenantChangePasswordViewController.swift in Sources */,
+				DB2B4C141E6992A4007547B2 /* InsertRepairViewController.swift in Sources */,
+				DB1272EE1E68C04800596A05 /* InsertCaretakerViewController.swift in Sources */,
+				DB2B4C101E69926A007547B2 /* InsertHouseViewController.swift in Sources */,
+				DB1272F01E68F44300596A05 /* CaretakerLoginViewController.swift in Sources */,
+				7B312BE31E9524E600FA0AF3 /* facebookShare.swift in Sources */,
+				DB2B4C1C1E699337007547B2 /* ViewPaymentsViewController.swift in Sources */,
+				DB2B4C161E6992DB007547B2 /* CaretakerChangePasswordViewController.swift in Sources */,
+				DB2B4C1A1E699315007547B2 /* ViewHousesViewController.swift in Sources */,
+				DB2B4C181E6992F1007547B2 /* ViewTenantsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1CF2551E6632B2003B5A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1CF2561E6632B2003B5A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB4DE2EF1E6DB102006E5A77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4DE2F01E6DB102006E5A77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1CF2591E6632B2003B5A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1CF25A1E6632B2003B5A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1CF25C1E6632B2003B5A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410691BADC646B42D5A6E52B /* Pods-iRent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iRent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwin.iRent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB1CF25D1E6632B2003B5A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F437CF97182A87682EF7FC08 /* Pods-iRent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iRent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwin.iRent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1CF2441E6632B2003B5A45 /* Build configuration list for PBXProject "iRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CF2591E6632B2003B5A45 /* Debug */,
+				DB1CF25A1E6632B2003B5A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1CF25B1E6632B2003B5A45 /* Build configuration list for PBXNativeTarget "iRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CF25C1E6632B2003B5A45 /* Debug */,
+				DB1CF25D1E6632B2003B5A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1CF2411E6632B2003B5A45 /* Project object */;
+}

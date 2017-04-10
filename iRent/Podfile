@@ -1,0 +1,10 @@
+platform :ios,'9.0'
+target "iRent" do
+    use_frameworks!
+    pod 'IQKeyboardManagerSwift'
+    pod 'Alamofire', '~> 4.3'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'FacebookShare'
+    #pod 'SQLite.swift', '~> 0.11.2'
+end
